@@ -117,17 +117,17 @@ version: 0.0.0
 description: Liquidation Config For Sentinel
 assemblyscript_mappings: ./src/index.as
 handlers:
-	- name: Insolvency Handler
-		condition: ADDRESS_INSOLVENT
-		predict: 0
-		delay: 0
-		handler: handleInsolvent
-		params:
-			- address: token
-			- address: sender
-			- address: receiver
-		target_address: 0x3E14dC1b13c488a8d5D310918780c983bD5982E7
-		state_mutability: non_payable
+  - name: Insolvency Handler
+    condition: ADDRESS_INSOLVENT
+    predict: 0
+    delay: 0
+    handler: handleInsolvent
+    params:
+      - address: token
+      - address: sender
+      - address: receiver
+    target_address: 0x3E14dC1b13c488a8d5D310918780c983bD5982E7
+    state_mutability: non_payable
 ```
 
 ## TODO
