@@ -2,9 +2,9 @@
 
 ## Overview
 
-The Event Driven Sentinel approach to adaptable sentinel combines the existing
-Sentinel architecture in Javascript with a configurable system for handling
-events with arbitrary function execution.
+The Event Driven Sentinel approach to the adaptable sentinel combines the
+existing Sentinel architecture in Javascript with a configurable system for
+handling events with arbitrary function execution.
 
 ## Philosophy
 
